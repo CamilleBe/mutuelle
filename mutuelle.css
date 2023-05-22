@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+
+/*NAV*/
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+/*HEADER*/
+header {
+    margin-top: 25px;
+    display: flex;
+}
+
+header div {
+    width: 40%;
+}
+
+header div:first-child {
+    margin-left: 125px;
+    padding: 75px;
+}
